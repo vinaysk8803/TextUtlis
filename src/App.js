@@ -39,7 +39,7 @@ function App() {
             <About mode={mode} />
           </Route>
           
-          <Route exact path="/">
+          <Route path="/">
           <TextForm
           showAlert={showAlert}
           heading="Enter your Text here"
