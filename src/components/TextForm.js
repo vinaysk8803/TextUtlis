@@ -56,16 +56,16 @@ export default function TextForm(props) {
             rows="8"
           ></textarea>
         </div>
-        <button className="btn btn-primary mx-2" onClick={handleClick}>
+        <button disabled = {text.length===0} className="btn btn-primary mx-2" onClick={handleClick}>
           Convert to UpperCase
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleLowClick}>
+        <button disabled = {text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleLowClick}>
           Convert to LowerCase
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleClearClick}>
+        <button disabled = {text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleClearClick}>
           Clear Text
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>
+        <button disabled = {text.length===0} className="btn btn-primary mx-1 my-1" onClick={handleExtraSpaces}>
           Remove Extra Spaces
         </button>
       </div>
@@ -75,11 +75,11 @@ export default function TextForm(props) {
       >
         <h2>Your text Summary</h2>
         <p>
-          {text.split(" ").length} words, {text.length} characters
+          {text.split(" ").filter((element)=> {return element.length!==0}).length} words, {text.length} characters
         </p>
-        <p>{0.008 * text.split(" ").length} Minutes for read</p>
+        <p>{0.008 * text.split(" ").filter((element)=> {return element.length!==0}).length} Minutes for read</p>
         <h2>Preview</h2>
-        <p>{text.length>0?text:"Enter Something in textbox above"}</p>
+        <p>{text.length>0?text:"Nothing to preview"}</p>
       </div>
     </>
   );
