@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+clear here for preview (https://vinaysk8803.github.io/TextUtlis-React/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
