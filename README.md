@@ -2,7 +2,11 @@
 
 click on the link for preview then press home button  (https://vinaysk8803.github.io/TextUtlis-React/)
 
-
+# ScreenShots of Website 
+![tu-1](https://user-images.githubusercontent.com/88550895/156127464-bd3e6cf1-6f7b-4220-ad09-0210577d8e67.png)
+![tu-2](https://user-images.githubusercontent.com/88550895/156127473-15b4fbc8-3534-4860-b79e-f7ce9cb0c583.png)
+![dark mode](https://user-images.githubusercontent.com/88550895/156127498-1e61310c-cb35-4839-86d8-a6581d99486b.png)
+![tu-5](https://user-images.githubusercontent.com/88550895/156127507-455312e0-921e-427f-8779-d89438abf755.png)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
